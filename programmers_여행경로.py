@@ -19,4 +19,4 @@ def solution(tickets):
         stack.append(for_stack[0])
         tickets.remove(for_stack[0])
     return answer
-solution([["ICN", "JFK"], ["HND", "IAD"], ["JFK", "HND"]])
+#test case 1번2번 안됨 다시시도해볼예정
