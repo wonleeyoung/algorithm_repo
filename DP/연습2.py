@@ -9,4 +9,4 @@ dp[2] = store[0] + store[2]
 
 for i in range(3,n):
     dp[i] = max(dp[i-3]+store[i],dp[i-2]+store[i])
-print(dp[n-1])
+print(max(dp))
