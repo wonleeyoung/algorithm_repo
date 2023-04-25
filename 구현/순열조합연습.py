@@ -51,6 +51,8 @@ def permutations1(arr,n):
     return result
 print(permutations1(a,3))
 
+def dfs(arr,start, check):
+    
 
 
 
